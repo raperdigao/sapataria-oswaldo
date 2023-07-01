@@ -1,24 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+
 /* #393646
 #4F4557
 #6D5D6E
 #F4EEE0 */
 
 body {
-    background-color: #d7a86e;
+    background-color: white;
 
 
 
 }
 
-/* header {
-    background-color: #F4EEE0;
-    height: 100px;
+main{
+    width: 100%;
+}
+
+footer {
+    background-color: #8e3200;
+   height: 100px;
     border-style: outset;
     border-color: #6D5D6E;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px #4F4557;
+    align-items: center;
 
-} */
+}
 
 
 .galeria {
@@ -29,17 +43,12 @@ body {
     align-items: center;
     width: 300px;
     height: 280px;
-    box-shadow: 2px 2px 2px 2px #8e3200;
-    padding: 10px;
-
+    box-shadow: 4px 4px 5px 5px #8e3200;
     margin-left: 350px;
+   
 
 
 }
-
-
-
-
 
 
 
@@ -60,13 +69,36 @@ body {
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px #4F4557;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Ubuntu', sans-serif; 
     width: 80%;
     margin-left: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 
 
 
+}
+
+.rodape{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    padding-top: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #ccc;
+
+}
+
+.endereco{
+    padding-left: 20px;
+    padding-top: 2px;
+    font-family: 'Ubuntu', sans-serif; 
+    font-style: italic;
+  text-align: left;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #ccc;
 }
 
 .artigo{
@@ -80,7 +112,35 @@ body {
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px #4F4557;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     width: 80%;
     margin-left: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    display: inline;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+ 
