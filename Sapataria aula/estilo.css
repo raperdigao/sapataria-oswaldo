@@ -34,7 +34,28 @@ footer {
 
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+   
 
+       
+
+}
+li{
+    margin-left: 350px;
+}
+
+/* .containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 350px;
+} */
+
+   
 .galeria {
 
     border: 1px solid #ccc;
