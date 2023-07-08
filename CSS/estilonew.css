@@ -17,6 +17,7 @@ body {
 
 
 
+
 }
 
 header {
@@ -103,21 +104,27 @@ header {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  
+  
+
+  
+
+
+
+
 
 }
 
 li {
-  float: right;
-  padding-left: 20px;
-
-
-
-
-
+ padding-left: 20px;
+ margin-bottom: 5px;
+ 
+ 
 }
 
 li:last-child {
@@ -254,7 +261,8 @@ text-decoration: none;
 
 display: flex;
 flex-direction:row;
-justify-content: space-between;
+justify-content: center;
+gap: 300px;
 align-items: center;
 
 
