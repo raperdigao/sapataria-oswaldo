@@ -11,6 +11,9 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 body {
   background-color: #d7a86e;
+  margin-left: 40px;
+  margin-right: 40px
+
 
 
 
@@ -21,15 +24,48 @@ header {
 
 
   background-color: #ffebc1;
-  box-shadow: 2px 2px 2px 2px #8e3200;
-  border-radius: 5px;
+  
+  border-radius: 20px;
   border-style: outset;
-  border-color: #d7a86e;
+  border-color: 2px 2px 2px 2px #B31312;
+ 
 
 
 
 }
 
+.article{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13pt;
+  line-height: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+
+}
+
+.titulo-produto{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+  font-size: 16pt;
+  color: #966d34;
+  text-align: left;
+  line-height: 1px;
+  text-shadow: 2px #978975;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ffebc1;
+  
+
+  
+  
+
+}
 .tituloheader {
 
   font-family: 'Ubuntu', sans-serif;
@@ -113,7 +149,7 @@ a:hover {
 .imagens1 {
   height: 200px;
   margin-top: 1px;
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -138,8 +174,7 @@ a:hover {
 .imagens2 {
   height: 200px;
   margin-top: 1px;
-
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -162,7 +197,7 @@ a:hover {
 .imagens3 {
   height: 200px;
   margin-top: 1px;
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -188,8 +223,8 @@ footer {
 
 
   background-color: #ffebc1;
-  box-shadow: 2px 2px 2px 2px #8e3200;
-  border-radius: 5px;
+
+  border-radius: 20px;
   border-style: outset;
   border-color: #d7a86e;
   height: 70px;
@@ -211,3 +246,22 @@ font-weight: bold;
 padding-top: 40px;
 text-decoration: none;
 }
+
+/* Estilos Catalogo */
+
+.responsive{
+
+
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+
+
+
+
+
