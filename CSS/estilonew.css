@@ -11,6 +11,10 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 body {
   background-color: #d7a86e;
+  margin-left: 40px;
+  margin-right: 40px
+
+
 
 
 
@@ -21,15 +25,48 @@ header {
 
 
   background-color: #ffebc1;
-  box-shadow: 2px 2px 2px 2px #8e3200;
-  border-radius: 5px;
+  
+  border-radius: 20px;
   border-style: outset;
-  border-color: #d7a86e;
+  border-color: 2px 2px 2px 2px #B31312;
+ 
 
 
 
 }
 
+.article{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13pt;
+  line-height: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+
+}
+
+.titulo-produto{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+  font-size: 16pt;
+  color: #966d34;
+  text-align: left;
+  line-height: 1px;
+  text-shadow: 2px #978975;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ffebc1;
+  
+
+  
+  
+
+}
 .tituloheader {
 
   font-family: 'Ubuntu', sans-serif;
@@ -67,21 +104,27 @@ header {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  
+  
+
+  
+
+
+
+
 
 }
 
 li {
-  float: right;
-  padding-left: 20px;
-
-
-
-
-
+ padding-left: 20px;
+ margin-bottom: 5px;
+ 
+ 
 }
 
 li:last-child {
@@ -113,7 +156,7 @@ a:hover {
 .imagens1 {
   height: 200px;
   margin-top: 1px;
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -138,8 +181,7 @@ a:hover {
 .imagens2 {
   height: 200px;
   margin-top: 1px;
-
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -162,7 +204,7 @@ a:hover {
 .imagens3 {
   height: 200px;
   margin-top: 1px;
-  box-shadow: 5px 5px 5px 5px #ffebc1;
+  box-shadow: 1px 1px 1px 1px #ffebc1;
   border-radius: 20px;
   display: flex;
   justify-content: left;
@@ -188,12 +230,18 @@ footer {
 
 
   background-color: #ffebc1;
-  box-shadow: 2px 2px 2px 2px #8e3200;
-  border-radius: 5px;
+
+  border-radius: 20px;
   border-style: outset;
   border-color: #d7a86e;
-  height: 70px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
+
+  /* position: relative; */
   
 
 
@@ -201,8 +249,15 @@ footer {
 }
 
 
+address{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
+}
 .rodape {
+position: absolute;
 text-align: center;
 font-family: 'Ubuntu', sans-serif;
 color: #966d34;
@@ -210,4 +265,153 @@ font-style: unset;
 font-weight: bold;
 padding-top: 40px;
 text-decoration: none;
+margin-bottom: 80px;
+/* left: 400px;
+bottom: 10px; */
 }
+
+.endereco{
+  /* position: absolute;
+  left: 15px; */
+  font-family: 'Dosis', sans-serif;
+  
+color: #966d34;
+font-style: unset;
+font-weight: bold;
+margin-bottom: 20px;
+
+ 
+}
+/* Estilos Catalogo */
+
+.responsive{
+
+
+display: flex;
+flex-direction:row;
+justify-content: center;
+gap: 300px;
+align-items: center;
+
+
+}
+
+
+/* Estilos Quem Somos */
+
+/* .coluna{
+  float: left;
+ 
+
+
+} */
+
+
+.row{
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: end;
+gap: 4px;
+
+}
+
+.coluna.imagem{
+width: 35%;
+background-color: #ffebc1;
+padding: 10px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 4px;
+height: 620px;
+
+
+}
+
+.coluna.quemsomos{
+width: 60%;
+background-color: #ffebc1;
+padding: 10px;
+border-radius: 20px;
+margin-left: 10px;
+height: 620px;
+
+}
+
+
+
+.tituloquemsomos{
+  font-family: 'Roboto', sans-serif;
+  color: #966d34;
+  font-size: 18pt;
+  font-weight: 900;
+  text-align: center;
+  
+
+}
+
+.paragrafo{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 15pt;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 14px;
+
+
+}
+
+
+/* Estilo Formularios */
+
+.container{
+
+  border: 5px solid #ffebc1;
+  border-radius: 20px;
+  padding-left: 12px;
+  padding-right: 20px;
+
+
+}
+
+input[type=text], select, textarea{
+width: 98%;
+padding: 12px;
+border: 5px solid #ffebc1;
+border-radius: 20px;
+/* resize: vertical; */
+
+}
+
+label {
+  padding: 12px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  font-weight: 900;
+  color: #ffebc1;
+}
+
+button{
+  margin-top: 12px;
+  width: 100px;
+  height: 50px;
+  border: 5px solid #d7a86e;
+  border-radius: 20px;
+  color: black;
+}
+/* Estilo Gifs */
+
+
+@media screen and (max-width: 600px) {
+  .coluna.imagem, .coluna.quemsomos, ul, li, .responsive, .tituloquemsomos, .paragrafo, .footer, address, h4{
+    width: 95%%;
+  }
+}
+
+
+
